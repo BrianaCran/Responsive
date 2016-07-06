@@ -1,0 +1,234 @@
+
+.nav { height: 50px;
+
+}
+.nav ul{ list-style-type: none;}
+.nav li { display:inline-block;
+   margin: 0 0 0 -25px;
+          margin-right: 38px;
+
+}
+.special{font-size: 20px;
+
+
+}
+.header {background: url("../images/mountain.jpeg");
+        margin-top: -42px;
+        width: 100%;
+        height: 300px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.header h1 {color: white;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+
+}
+.content {
+         margin: 0% 10% 0% 10%;
+}
+.green {float: left;
+        margin: 3% 2% 0% 5%;
+      }
+.blue {float: left;
+       margin: 3% 2% 0% 0%;}
+.black{float: left;
+        margin: 3% 2% 0% 0%;}
+
+.green .top,.blue .top,.black .top   {width: 310px;
+                                      height: 220px;
+
+}
+.top p{ display: inline-block;
+        font-size: 500%;
+        color: white;
+        margin: 0 auto;
+        margin-left: 30%;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);}
+.green .smallbox,.blue .smallbox,.black .smallbox {width: 308px;
+                                         height: 46px;
+                                         border: 1px solid gray;}
+.green .choosebox,.blue .choosebox,.black .choosebox { width: 308px;
+                                           height: 88px;
+                                           border: 1px solid gray;
+
+}
+
+.green .top{background: #519251;
+            }
+.blue .top {background:  #2c4985;
+          }
+.black .top {background: black;
+             }
+.content2{clear: both;
+
+}
+.lefttext{position: relative;
+          display: inline-block;
+          float: left;
+          margin: 5% 0% 0 8%;
+
+}
+.lefttext h1,.righttext h1{ font-size: 20px;
+
+
+}
+.lefttext .toptext {height: 200px;
+                    width: 400px;
+                    margin-bottom: 10%;
+
+}
+.lefttext .bottomtext {height: 200px;
+                       width: 400px;
+                       margin-bottom: 10%;}
+
+.righttext {position: relative;
+          display: inline-block;
+          float: right;
+          margin: 5% 11% 0% 7%;
+
+}
+.righttext .toptext{height: 200px;
+                    width: 400px;
+                    margin-bottom: 10%;}
+.righttext .bottomtext{height: 200px;
+                       width: 400px;
+                       margin-bottom: 10%;}
+.footer {clear: both;
+         background: black;
+         height: 75px;
+         margin-left: -150px;
+       width: 129%;}
+
+@media(min-width:0px)and (max-width:478px){
+  .header{ margin-bottom: 10%;}
+  .green .top{ width: 435%;
+               margin: 0% 7% 0% -56%;}
+  .green .smallbox {width: 433%;
+                    margin: 0% 0% 0% -56%;}
+  .green .choosebox { width: 432%;
+                      margin: 0% 0 10% -56%;}
+  .blue .top       { width: 289%;
+                     margin: 490% 0% 0% -109%;}
+  .blue .smallbox {width: 288%;
+                   margin: 0% 0% 0% -109%;}
+  .blue .choosebox { width: 288%;
+                     margin: 0% 0 10% -109%;}
+
+  .black .top{ width: 289%;
+               margin: 10% 0% 0% -25%;}
+  .black .smallbox {width: 287%;
+                    margin: 0% 0% 0% -25%;}
+  .black .choosebox { width: 287%;
+                      margin: 0% 0 10% -25%;}
+
+  .lefttext { margin: 20% 0% 0 10%;}
+  .righttext { margin: -5% 0% 0 10%;}
+  .lefttext .toptext, .lefttext .bottomtext,
+  .righttext .toptext,.righttext .bottomtext{ width: 83%; margin-bottom: 30%;}
+  .lefttext .bottomtext{margin-top: -10%;}
+  .lefttext h1,.righttext h1{font-size: 180%;}
+  .footer { width: 160%;}
+
+
+}
+
+@media(min-width:479px)and (max-width:767px){
+  .header{ height:400px;margin-bottom: 40px;}
+  .green .top{ width: 522%;
+               margin: 0% 7% 0% -67%;}
+  .green .smallbox {width: 520%;
+                    margin: 0% 0% 0% -67%;}
+  .green .choosebox { width: 520%;
+                      margin: 0% 0 10% -67%;}
+  .green p{margin: 3% 40% 0 40%;}
+  .blue .top       { width: 349%;
+                     margin: 480% 0% 0% -118%;}
+  .blue .smallbox {width: 347%;
+                   margin: 0% 0% 0% -118%;}
+  .blue .choosebox { width: 347%;
+                     margin: 0% 0 10% -118%;}
+  .black .top{ width: 347%;
+               margin: 10% 0% 0% -30%;}
+  .black .smallbox {width: 345%;
+                    margin: 0% 0% 0% -30%;}
+  .black .choosebox { width: 345%;
+                      margin: 0% 0 10% -30%;}
+  .lefttext { margin: 20% 0% 0% 5%;font-size: 105%;}
+  .righttext { margin: -10% 12% -4% 0%;font-size: 110%;}
+  .lefttext .toptext, .lefttext .bottomtext{margin-bottom: 20%;}
+  .righttext .toptext, .righttext .bottomtext{margin: 10% 0 20% 0;}
+  .lefttext h1,.righttext h1{font-size: 180%;}
+  .footer{width: 135%;}
+}
+
+@media(min-width:768px)and (max-width:978px){
+  .nav{height: 10%;
+       margin-top: -1%;
+       font-size: 90%;}
+  .nav li{margin-right: 9%;}
+  .header {margin: -4% 0 10% 0;
+           height: 400px;}
+  .header h1{ font-size: 275%;}
+  .green{margin:-5% 1% 0 -11%;
+         display: inline-block;
+         position: relative;
+         float: left;}
+  .green .top{width: 265%;}
+  .green .smallbox{width: 263%;}
+  .green .choosebox{width: 263%;}
+  .blue {margin: -5% 0 0 26%;
+         display: inline-block;
+         position: relative;
+         float: left;}
+  .blue .top{width: 178%;}
+  .blue .smallbox{width: 176%;}
+  .blue .choosebox{width: 176%;}
+  .black{margin: -5% 2% 0 0%;
+         display: inline-block;
+         position: relative;
+         float: right;}
+  .black p{font-size: 700%;}
+  .black .top{width: 150%;}
+  .black .smallbox{width: 149%;}
+  .black .choosebox{width: 149%;}
+  .black p{font-size: 600%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 5% 0% 15%;}
+  .lefttext{margin: 10% 0 0 4%;
+            padding-bottom: 2%;}
+  .righttext{margin: -75% -55% 2% 53%;
+             }
+
+  .lefttext .toptext,.lefttext .bottomtext,
+  .righttext .toptext,.righttext .bottomtext{ width: 40%;}
+
+  .righttext .bottomtext{ margin: -1% 0 0 0;}
+
+  .lefttext h1,.righttext h1{font-size: 170%;}
+}
+@media(min-width:979px){
+  .nav{height: 2%;
+       margin-top: -1%;
+       font-size: 90%;}
+  .nav ul{margin: 1% 0 3% 1%;font-size: 115%;}
+  .nav li{padding-right: 2%;}
+  .header{height: 400px;margin: -5% 0 0 0;}
+  .header h1{font-size: 300%;}
+  .green,.blue,.black {margin-top: 5%;font-size: 115%;}
+  .blue p{margin-left: 25%;}
+
+  .lefttext{margin: 5% 0 5% 16%;}
+  .righttext{margin: 5% 18% 0% 0;}
+  .lefttext h1,.righttext h1{font-size: 185%;}
+  .lefttext p, .righttext p{font-size: 110%;}
+  .lefttext .bottomtext{ padding-top: 2%;}
+    .righttext .bottomtext{ padding-top: 2%;}
+
+}
